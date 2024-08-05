@@ -1,0 +1,25 @@
+:root {
+    --violet: #b6a4ff;
+    --green: #2ae881;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first {
+    width: 0;
+    height: 0;
+    border-top: 512px solid #2ae881;
+    border-left: 512px solid transparent;
+    position: absolute;
+}
+
+.second {
+    width: 0;
+    height: 0;
+    border-bottom: 512px solid #b6a4ff;
+    border-right: 512px solid transparent;
+    position: absolute;
+}
