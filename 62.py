@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     m = set(map(int, input().split()))
     

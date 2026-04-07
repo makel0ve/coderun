@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, k = map(int, input().split())
     m1 = list(map(int, input().split()))

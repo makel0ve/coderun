@@ -1,6 +1,3 @@
-from collections import Counter, OrderedDict
-
-
 def main():
     d = {}
     f = open("input.txt")

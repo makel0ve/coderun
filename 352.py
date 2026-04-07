@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     j = set(input().strip())
     s = input().strip()

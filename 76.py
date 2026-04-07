@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, k, m = map(int, input().split())
     s = 0

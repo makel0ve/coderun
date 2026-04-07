@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     m = list(map(int, input().split()))
     m.sort()

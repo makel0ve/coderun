@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     m = tuple(map(int, input().split()))
     score = 0

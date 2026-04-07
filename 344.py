@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, m = map(int, input().split())
     matrix = list([None] * (m + 2) for _ in range(n + 2))

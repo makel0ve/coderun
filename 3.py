@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, m = map(int, input().split())
     table = [list(map(int, input().split())) for _ in range(0, n)]

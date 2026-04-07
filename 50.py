@@ -2,7 +2,6 @@ from collections import Counter
 
 
 def main():
-    # m = list(map(str, input().split()))
     k = ''
     f = open("input.txt")
     for line in f:

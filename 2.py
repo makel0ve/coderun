@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, m = map(int, input().split())
     table = [list(map(int, input().split())) for _ in range(0, n)]
@@ -10,6 +7,7 @@ def main():
     
     for i in range(1, n):
         table_d[i][0] = table_d[i - 1][0] + table[i][0]
+
     for i in range(1, m):
         table_d[0][i] = table_d[0][i - 1] + table[0][i]
         

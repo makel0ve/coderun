@@ -1,6 +1,3 @@
-import sys
-
-
 def main():
     n, m = map(int, input().split())
     graf = {key: set() for key in range(1, n + 1)}
